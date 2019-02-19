@@ -1,0 +1,79 @@
+body {
+    background-color: whitesmoke;
+}
+
+.content{
+
+    &--image-box{
+        width: 50%;
+        padding: 70px;
+
+        @media only screen and (max-width: 991px){
+            padding: 50px;
+        } 
+
+        img {
+            width: 100%;
+            margin:17% 0 17%;
+
+            @media only screen and (max-width: 991px){
+                margin: 34% 0 34%;
+            } 
+
+            @media only screen and (max-width: 767px){
+                margin: 5% 0 0;
+            } 
+        }
+    }
+
+    &--title {
+        width: 50%;
+        margin-top: 24%;
+
+        @media only screen and (max-width: 1199px){
+            margin-top: 22.15%;
+            } 
+
+        @media only screen and (max-width: 991px){
+            margin-top: 32%;
+            } 
+
+        @media only screen and (max-width: 767px){
+            margin-top: 5%;
+            text-align: center;
+            } 
+
+        &--main {
+            font-family: 'Righteous', cursive;
+            font-size: 40px;
+            line-height: 45px;
+
+            @media only screen and (max-width: 340px){
+                font-size: 35px;
+            } 
+        }
+
+        &--subs{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 32px;
+            margin-top: -19px;
+
+            @media only screen and (max-width: 340px){
+                font-size: 30px;
+            } 
+        }
+
+        &--media-social{
+            font-size: 32px;
+            margin-top: -22px;
+        }
+    }
+}
+
+.fa-instagram {
+    margin-left: 10px;
+}
+
+.fa-whatsapp{
+    margin-left: 10px;
+}
